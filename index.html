@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>川越小江戸 3時間満喫プラン</title>
+    <title>【ベテラン旅行プランナー監修】川越小江戸 3時間満喫プラン</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts for a readable and cute combination -->
@@ -12,11 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Noto Sans JP', sans-serif; /* 本文は読みやすいNoto Sans JPに */
+            font-family: 'Noto Sans JP', sans-serif;
             background-color: #FDF7E4; /* 柔らかいクリーム色 */
         }
         h1, h2, h3, .mochiy-pop {
-            font-family: 'Mochiy Pop One', cursive; /* 見出しは可愛らしいMochiy Pop Oneに */
+            font-family: 'Mochiy Pop One', cursive;
         }
         .container-bg {
             background-color: #FFFFFF; /* 純粋な白 */
@@ -65,6 +65,7 @@
                 position: relative;
                 padding-left: 50%;
                 text-align: right;
+                word-break: break-word;
             }
             .responsive-table td:before {
                 position: absolute;
@@ -88,25 +89,27 @@
 
         <!-- Title Section -->
         <header class="text-center mb-8">
-            <h1 class="text-3xl md:text-4xl font-bold accent-color mb-2 mochiy-pop">川越小江戸 3時間満喫プラン</h1>
-            <p class="text-sm md:text-base text-gray-700">車で巡る、よくばり旅の2つのご提案</p>
+            <h1 class="text-2xl md:text-3xl font-bold accent-color mb-2">【ベテラン旅行プランナー監修】<br>川越小江戸 3時間満喫プラン</h1>
+            <p class="text-sm md:text-base text-gray-700">車で巡る効率的な旅（A案・B案）</p>
         </header>
 
         <!-- Introduction Section -->
         <section class="mb-8 p-4 bg-orange-50 rounded-lg border border-orange-200 shadow-stylish">
-            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">はじめに</h2>
+            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">はじめに：限られた時間で小江戸の魅力を凝縮！</h2>
+            <p class="text-sm md:text-base text-gray-700 leading-relaxed mb-2">
+                本レポートでは、2025年8月13日（水）の13時に川越へ車で到着し、16時までの限られた3時間で小江戸川越の魅力を最大限に満喫できるよう、2つの異なるプランをご提案します。お客様のご要望である「最初に昼食」「りそなコエドテラスを含める」「川越氷川神社を含める」に加え、新たに「スヌーピー茶屋」を両プランに組み込みました。
+            </p>
             <p class="text-sm md:text-base text-gray-700 leading-relaxed">
-                2025年8月13日（水）13時から16時までの3時間で、小江戸川越を効率よく楽しむためのプランです。「昼食」と「りそなコエドテラス」、そして縁結びで有名な「川越氷川神社」を巡る、2つのコースをご用意しました。お盆期間で混雑が予想されるため、歩きやすい靴とこまめな水分補給を忘れずに！
+                3時間という制約の中で、主要な観光スポットを効率的に巡るため、各スポットでの滞在時間は短めに設定しています。これは、川越の多様な魅力を「広く浅く」体験するための、まさにベテラン旅行プランナーならではの「凝縮された旅程」です。水曜日という平日ならではの店舗の定休日も考慮し、最適な選択肢を厳選いたしました。
             </p>
         </section>
         
         <!-- Common Guide Section -->
         <section class="mb-8">
-            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">旅の共通ガイド</h2>
-            
-            <h3 class="text-lg md:text-xl font-bold mb-2">おすすめ駐車場</h3>
+            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">共通ガイド：駐車場と旅のヒント</h2>
+            <h3 class="text-lg md:text-xl font-bold mb-2">おすすめ駐車場詳細</h3>
             <p class="text-sm md:text-base text-gray-700 mb-4">
-                「りそなコエドテラス」に最も近い<strong class="font-bold">「大栄パークりそなコエドテラス」</strong>が便利です。3時間利用で平日最大800円と、お得に停められます。（現金・クレジットカード対応）
+                アクセスのしやすさ、料金、主要観光スポットへの近さを総合的に評価し、「大栄パークりそなコエドテラス」を推奨します。
             </p>
 
             <div class="overflow-x-auto responsive-table mb-4 rounded-lg shadow-stylish border border-gray-300">
@@ -114,49 +117,77 @@
                     <thead>
                         <tr class="bg-amber-100 text-gray-700">
                             <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">駐車場名</th>
-                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">町並みからの距離</th>
-                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">3時間料金目安</th>
+                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">距離</th>
+                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">3時間料金目安（平日）</th>
+                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">収容台数</th>
+                            <th class="p-2 md:p-3 text-left font-bold border-b border-gray-300">特記事項</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr class="hover:bg-amber-50 transition-colors">
                             <td class="p-2 md:p-3 border-b border-gray-200" data-label="駐車場名">大栄パークりそなコエドテラス</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="町並みからの距離">徒歩約2分</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安">800円（6時間最大）</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="距離">徒歩約2分</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安（平日）">800円（6時間最大）</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="収容台数">32-33台</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="特記事項">クレジットカード、高額紙幣対応</td>
                         </tr>
                         <tr class="hover:bg-amber-50 transition-colors">
                             <td class="p-2 md:p-3 border-b border-gray-200" data-label="駐車場名">タイムズ川越幸町第2</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="町並みからの距離">徒歩約3分</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安">900円（24時間最大）</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="距離">徒歩約3分</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安（平日）">900円（24時間最大）</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="収容台数">18-19台</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="特記事項">電子マネー、クレジットカード対応</td>
                         </tr>
                         <tr class="hover:bg-amber-50 transition-colors">
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="駐車場名">予約制（特Pなど）</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="町並みからの距離">徒歩約3分〜</td>
-                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安">500円〜</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="駐車場名">【予約制】特P 元町1-1-9</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="距離">徒歩約3分</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="3時間料金目安（平日）">700円（24時間）</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="収容台数">-</td>
+                            <td class="p-2 md:p-3 border-b border-gray-200" data-label="特記事項">軽・コンパクトカー専用</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
+            
+            <h3 class="text-lg md:text-xl font-bold mb-2 mt-6">旅のヒントと注意点</h3>
+            <ul class="list-disc list-inside space-y-2 text-sm md:text-base text-gray-700">
+                <li><strong class="font-bold">夏季の気候と対策：</strong>8月中旬は暑く湿度が高い時期です。熱中症対策のため、こまめな水分・塩分補給、帽子や日傘を忘れずに。</li>
+                <li><strong class="font-bold">混雑状況：</strong>平日ですがお盆期間のため、通常より観光客が多い可能性があります。人気店では待ち時間が発生することも考慮しておきましょう。</li>
+                <li><strong class="font-bold">効率的な回り方のコツ：</strong>徒歩移動が中心となるため、歩きやすい靴でお越しください。小銭を用意しておくと、食べ歩きでスムーズです。</li>
+                <li><strong class="font-bold">支払い方法の確認：</strong>多くの店舗はクレジットカードや電子マネーに対応していますが、小規模な店舗では現金のみの場合もあります。</li>
+            </ul>
         </section>
 
         <!-- Plan A Section -->
         <section class="mb-8">
-            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">プランA：グルメと散策を楽しむコース</h2>
+            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">プランA：多様なグルメと小江戸散策コース</h2>
             <p class="text-sm md:text-base text-gray-700 mb-4 leading-relaxed">
-                川越の様々なグルメを楽しみながら、名所をバランス良く巡りたい方におすすめです。
+                川越の多様なグルメを楽しみながら、名所をバランス良く巡りたい方向け。
             </p>
             <div class="space-y-4 text-sm md:text-base">
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">① 13:00〜14:00 昼食</p>
-                    <p>駐車場直結の<strong class="font-bold">「りそなコエドテラス」</strong>で、埼玉食材を使ったピザや名物「おさつチップ」を楽しみます。</p>
+                    <p class="font-bold mb-1">13:00 - 14:00 昼食：川越の味覚を堪能</p>
+                    <p>駐車場直結の<strong class="font-bold">「りそなコエドテラス」</strong>で、埼玉食材を使ったピザや、名物「おさつチップ」を楽しみます。</p>
                 </div>
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">② 14:00〜14:55 氷川神社へ</p>
-                    <p>蔵造りの町並みを通りながら、縁結びで有名な<strong class="font-bold">「川越氷川神社」</strong>へ。（滞在30分）</p>
+                    <p class="font-bold mb-1">14:00 - 14:15 川越氷川神社へ移動</p>
+                    <p>りそなコエドテラスから蔵造りの町並みを通って、縁結びで有名な<strong class="font-bold">「川越氷川神社」</strong>へ。（徒歩約15分）</p>
                 </div>
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">③ 14:55〜16:00 町並み散策</p>
-                    <p><strong class="font-bold">「蔵造りの町並み」</strong>と<strong class="font-bold">「時の鐘」</strong>を巡り、<strong class="font-bold">「菓子屋横丁」</strong>で懐かしいお菓子探し。その後、駐車場へ戻ります。</p>
+                    <p class="font-bold mb-1">14:15 - 14:45 川越氷川神社：縁結びのパワースポット</p>
+                    <p>境内の「絵馬のトンネル」や「鯛みくじ」を体験します。（滞在時間: 約30分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">14:45 - 15:00 蔵造りの町並みへ移動</p>
+                    <p>神社から蔵造りの町並みへ戻ります。（徒歩約15分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">15:00 - 15:30 蔵造りの町並み、時の鐘、スヌーピー茶屋</p>
+                    <p>江戸情緒あふれる町並みを散策し、「時の鐘」の音色を聴き、<strong class="font-bold">「スヌーピー茶屋」</strong>で限定スイーツを楽しみます。（滞在時間: 約30分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">15:30 - 16:00 菓子屋横丁と駐車場へ</p>
+                    <p>懐かしい駄菓子屋が並ぶ<strong class="font-bold">「菓子屋横丁」</strong>を巡り、駐車場へ。（徒歩約15分）</p>
                 </div>
             </div>
         </section>
@@ -165,28 +196,41 @@
         <section class="mb-8">
             <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">プランB：老舗うなぎと歴史探訪コース</h2>
             <p class="text-sm md:text-base text-gray-700 mb-4 leading-relaxed">
-                「食べログ3.5以上」の絶品うなぎを堪能したい方におすすめの、少し贅沢なプランです。
+                「食べログ3.5以上」の絶品うなぎを堪能しつつ、歴史的なスポットを巡りたい方向け。
             </p>
             <div class="space-y-4 text-sm md:text-base">
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">① 13:00〜14:00 昼食</p>
-                    <p>創業100年以上の老舗<strong class="font-bold">「小川菊」</strong>で、至福のうなぎを味わいます。（現金のみなので注意）</p>
+                    <p class="font-bold mb-1">13:00 - 14:00 昼食：老舗うなぎ店「小川菊」</p>
+                    <p>食べログ高評価の老舗<strong class="font-bold">「小川菊」</strong>で、至福のうなぎを味わいます。（現金のみなので注意）</p>
                 </div>
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">② 14:00〜14:45 氷川神社へ</p>
-                    <p>昼食後、縁結びの<strong class="font-bold">「川越氷川神社」</strong>へ向かいます。（滞在30分）</p>
+                    <p class="font-bold mb-1">14:00 - 14:15 川越氷川神社へ移動</p>
+                    <p>昼食後、縁結びの<strong class="font-bold">「川越氷川神社」</strong>へ。（徒歩約15分）</p>
                 </div>
                 <div class="p-4 rounded-lg shadow-stylish plan-box">
-                    <p class="font-bold mb-1">③ 14:45〜16:00 町並み散策</p>
-                    <p><strong class="font-bold">「蔵造りの町並み」</strong>と<strong class="font-bold">「時の鐘」</strong>を散策し、<strong class="font-bold">「菓子屋横丁」</strong>を巡ります。最後は<strong class="font-bold">「りそなコエドテラス」</strong>でお土産探しをして、駐車場へ戻ります。</p>
+                    <p class="font-bold mb-1">14:15 - 14:45 川越氷川神社：縁結びのパワースポット</p>
+                    <p>境内の「絵馬のトンネル」や「鯛みくじ」を体験します。（滞在時間: 約30分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">14:45 - 15:00 蔵造りの町並みへ移動</p>
+                    <p>神社から蔵造りの町並みへ戻ります。（徒歩約15分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">15:00 - 15:30 蔵造りの町並み、時の鐘、スヌーピー茶屋</p>
+                    <p>江戸情緒あふれる町並みを散策し、「時の鐘」の音色を聴き、<strong class="font-bold">「スヌーピー茶屋」</strong>で限定スイーツを楽しみます。（滞在時間: 約30分）</p>
+                </div>
+                <div class="p-4 rounded-lg shadow-stylish plan-box">
+                    <p class="font-bold mb-1">15:30 - 16:00 菓子屋横丁、りそなコエドテラス、駐車場へ</p>
+                    <p>懐かしい駄菓子屋が並ぶ<strong class="font-bold">「菓子屋横丁」</strong>を巡り、<strong class="font-bold">「りそなコエドテラス」</strong>でお土産探しをした後、駐車場へ。（徒歩約15分）</p>
                 </div>
             </div>
         </section>
 
         <!-- Conclusion Section -->
-        <footer class="mt-8 pt-4 border-t border-gray-300 text-center">
-            <p class="text-sm md:text-base text-gray-600">
-                このプランで、思い出に残る素敵な川越の旅をお楽しみください！
+        <footer class="mt-8 pt-4 border-t border-gray-300">
+            <h2 class="text-xl md:text-2xl font-bold accent-color mb-3">おわりに：思い出に残る川越の旅へ</h2>
+            <p class="text-sm md:text-base text-gray-700 leading-relaxed mb-4">
+                この2つの3時間プランは、川越の歴史と文化、そしてグルメの魅力を凝縮した内容となっています。お客様が安心して、そして心ゆくまで小江戸の風情を堪能できるよう、細部にわたる配慮をいたしました。このプランが、お客様にとって忘れられない夏の川越の思い出作りに貢献できれば幸いです。
             </p>
         </footer>
 
